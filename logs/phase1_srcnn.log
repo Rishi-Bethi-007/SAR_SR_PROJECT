@@ -1,0 +1,21 @@
+2026-03-16 13:31:39  ============================================================
+2026-03-16 13:31:39  Run started: 2026-03-16 13:31:39
+2026-03-16 13:31:39  Device: cuda (NVIDIA GeForce RTX 5060 Laptop GPU)
+2026-03-16 13:31:39  Model: srcnn  |  Phase: 1  |  Epochs: 50  |  Batch: 16
+2026-03-16 13:31:40  Parameters: 57,281
+2026-03-16 13:31:40  Train batches: 2423  |  Val batches: 303
+2026-03-16 13:31:40  Log file: logs/phase1_srcnn.log
+2026-03-16 13:31:40  ============================================================
+2026-03-16 13:34:46  Epoch    1 | loss 0.0819 | lr 0.000100
+2026-03-16 13:37:50  Epoch    2 | loss 0.0815 | lr 0.000100
+2026-03-16 13:40:54  Epoch    3 | loss 0.0814 | lr 0.000100
+2026-03-16 13:43:57  Epoch    4 | loss 0.0814 | lr 0.000100
+2026-03-16 13:47:17  Epoch    5 | loss 0.0813 | PSNR 20.34 dB | SSIM 0.5641 | lr 0.000100
+2026-03-16 13:47:17    -> NEW BEST checkpoint saved (20.34 dB) -> checkpoints/phase1/srcnn_best.pth
+2026-03-16 13:50:19  Epoch    6 | loss 0.0813 | lr 0.000100
+2026-03-16 13:53:19  Epoch    7 | loss 0.0813 | lr 0.000100
+2026-03-16 13:56:18  Epoch    8 | loss 0.0813 | lr 0.000100
+2026-03-16 13:59:20  Epoch    9 | loss 0.0813 | lr 0.000100
+2026-03-16 14:02:38  Epoch   10 | loss 0.0813 | PSNR 20.37 dB | SSIM 0.5663 | lr 0.000100
+2026-03-16 14:02:38    -> NEW BEST checkpoint saved (20.37 dB) -> checkpoints/phase1/srcnn_best.pth
+

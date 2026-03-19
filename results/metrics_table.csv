@@ -1,0 +1,6 @@
+Model,PSNR_dB,SSIM,vs_Bicubic_dB,bicubic_ref
+Bicubic,18.4452,0.4283,0.0000,v1_domain
+SRCNN,19.0037,0.5037,0.5585,v1_domain
+RCAN Phase 1,19.0640,0.5062,0.6189,v1_domain
+Bicubic (v2 domain),18.0936,0.3820,0.0000,v2_domain
+RCAN Phase 2,18.1286,0.5091,0.0351,v2_domain

@@ -1,0 +1,27 @@
+Phase 2 preprocessing — 15 scenes found
+Output: data/patches_v2
+Scenes:   0%|          | 0/15 [00:00<?, ?it/s]                                              Scenes:   0%|          | 0/15 [00:14<?, ?it/s]Scenes:   7%|6         | 1/15 [00:14<03:18, 14.17s/it]                                                      Scenes:   7%|6         | 1/15 [00:41<03:18, 14.17s/it]Scenes:  13%|#3        | 2/15 [00:41<04:41, 21.67s/it]                                                      Scenes:  13%|#3        | 2/15 [01:01<04:41, 21.67s/it]Scenes:  20%|##        | 3/15 [01:01<04:13, 21.09s/it]                                                      Scenes:  20%|##        | 3/15 [01:19<04:13, 21.09s/it]Scenes:  27%|##6       | 4/15 [01:19<03:37, 19.78s/it]                                                      Scenes:  27%|##6       | 4/15 [01:46<03:37, 19.78s/it]Scenes:  33%|###3      | 5/15 [01:46<03:44, 22.44s/it]                                                      Scenes:  33%|###3      | 5/15 [02:00<03:44, 22.44s/it]Scenes:  40%|####      | 6/15 [02:00<02:56, 19.56s/it]                                                      Scenes:  40%|####      | 6/15 [02:11<02:56, 19.56s/it]Scenes:  47%|####6     | 7/15 [02:11<02:14, 16.84s/it]                                                      Scenes:  47%|####6     | 7/15 [02:33<02:14, 16.84s/it]Scenes:  53%|#####3    | 8/15 [02:33<02:08, 18.31s/it]                                                      Scenes:  53%|#####3    | 8/15 [02:50<02:08, 18.31s/it]Scenes:  60%|######    | 9/15 [02:50<01:47, 17.90s/it]                                                      Scenes:  60%|######    | 9/15 [03:08<01:47, 17.90s/it]Scenes:  67%|######6   | 10/15 [03:08<01:30, 18.08s/it]                                                       Scenes:  67%|######6   | 10/15 [03:24<01:30, 18.08s/it]Scenes:  73%|#######3  | 11/15 [03:24<01:10, 17.54s/it]                                                       Scenes:  73%|#######3  | 11/15 [03:43<01:10, 17.54s/it]Scenes:  80%|########  | 12/15 [03:43<00:53, 17.99s/it]                                                       Scenes:  80%|########  | 12/15 [03:57<00:53, 17.99s/it]Scenes:  87%|########6 | 13/15 [03:57<00:33, 16.56s/it]                                                       Scenes:  87%|########6 | 13/15 [04:13<00:33, 16.56s/it]Scenes:  93%|#########3| 14/15 [04:13<00:16, 16.37s/it]                                                       Scenes:  93%|#########3| 14/15 [04:32<00:16, 16.37s/it]Scenes: 100%|##########| 15/15 [04:32<00:00, 17.27s/it]Scenes: 100%|##########| 15/15 [04:32<00:00, 18.16s/it]
+  CAPELLA_C02_SP_GEO_HH_20201201165028_20201201165030.tif: 3165 patches
+  CAPELLA_C02_SP_GEO_HH_20201207005429_20201207005455.tif: 3202 patches
+  CAPELLA_C02_SP_GEO_HH_20201228151912_20201228151937.tif: 3175 patches
+  CAPELLA_C02_SP_GEO_HH_20201231031006_20201231031030.tif: 4968 patches
+  CAPELLA_C02_SP_GEO_HH_20210106050228_20210106050252.tif: 3262 patches
+  CAPELLA_C02_SP_GEO_HH_20210113201240_20210113201307.tif: 3224 patches
+  CAPELLA_C02_SP_GEO_HH_20210113212333_20210113212357.tif: 3118 patches
+  CAPELLA_C02_SP_GEO_HH_20210116013716_20210116013740.tif: 3202 patches
+  CAPELLA_C02_SP_GEO_HH_20210122225354_20210122225418.tif: 3162 patches
+  CAPELLA_C02_SP_GEO_HH_20211019231459_20211019231521.tif: 3220 patches
+  CAPELLA_C03_SP_GEO_HH_20211008095729_20211008095755.tif: 3122 patches
+  CAPELLA_C05_SP_GEO_HH_20211020065906_20211020065928.tif: 3168 patches
+  CAPELLA_C05_SP_GEO_HH_20211113114208_20211113114232.tif: 2954 patches
+  CAPELLA_C05_SP_GEO_HH_20211119040539_20211119040603.tif: 3190 patches
+  CAPELLA_C06_SP_GEO_HH_20211009234314_20211009234317.tif: 2346 patches
+
+Total patches saved: 48478
+
+Patch splits already exist in data\splits, skipping.
+Scene splits already exist in data\scene_splits, skipping.
+
+Manifest saved: data\patch_manifest.json (48478 entries)
+
+Done.

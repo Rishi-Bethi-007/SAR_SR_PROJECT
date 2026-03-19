@@ -1,0 +1,78 @@
+2026-03-16 22:19:37  ============================================================
+2026-03-16 22:19:37  Run started: 2026-03-16 22:19:37
+2026-03-16 22:19:37  Device: cuda (NVIDIA GeForce RTX 5060 Laptop GPU)
+2026-03-16 22:19:37  Model: rcan  |  Phase: 2  |  Epochs: 30  |  Batch: 16
+2026-03-16 22:19:38  Parameters: 4,535,433
+2026-03-16 22:19:38  Train patches: 15000  |  Train batches: 937  |  Val batches: 303
+2026-03-16 22:19:38  Early stopping patience: 10 val checks (50 epochs)  [0=disabled]
+2026-03-16 22:19:38  Log: logs/phase2_rcan.log
+2026-03-16 22:19:38  ============================================================
+2026-03-16 22:25:51  Epoch    1 | loss 0.2714 | lr 0.000100
+2026-03-16 22:32:05  Epoch    2 | loss 0.2608 | lr 0.000100
+2026-03-16 22:38:24  Epoch    3 | loss 0.2594 | lr 0.000100
+2026-03-16 22:44:40  Epoch    4 | loss 0.2586 | lr 0.000100
+2026-03-16 22:51:53  Epoch    5 | loss 0.2585 | PSNR 19.53 dB | SSIM 0.5707 | lr 0.000100
+2026-03-16 22:51:53    -> NEW BEST (19.53 dB) -> checkpoints/phase2\rcan_best_psnr19.53.pth
+2026-03-16 22:58:09  Epoch    6 | loss 0.2586 | lr 0.000100
+2026-03-16 23:04:22  Epoch    7 | loss 0.2581 | lr 0.000100
+2026-03-16 23:10:31  Epoch    8 | loss 0.2574 | lr 0.000100
+2026-03-16 23:16:44  Epoch    9 | loss 0.2576 | lr 0.000100
+2026-03-16 23:24:02  Epoch   10 | loss 0.2572 | PSNR 19.56 dB | SSIM 0.5710 | lr 0.000100
+2026-03-16 23:24:02    -> NEW BEST (19.56 dB) -> checkpoints/phase2\rcan_best_psnr19.56.pth
+2026-03-16 23:30:22  Epoch   11 | loss 0.2564 | lr 0.000100
+2026-03-16 23:36:41  Epoch   12 | loss 0.2573 | lr 0.000100
+2026-03-16 23:43:01  Epoch   13 | loss 0.2564 | lr 0.000100
+2026-03-16 23:49:18  Epoch   14 | loss 0.2568 | lr 0.000100
+2026-03-16 23:56:36  Epoch   15 | loss 0.2568 | PSNR 19.67 dB | SSIM 0.5741 | lr 0.000100
+2026-03-16 23:56:36    -> NEW BEST (19.67 dB) -> checkpoints/phase2\rcan_best_psnr19.67.pth
+2026-03-17 00:02:55  Epoch   16 | loss 0.2564 | lr 0.000100
+2026-03-17 00:09:00  Epoch   17 | loss 0.2567 | lr 0.000100
+2026-03-17 00:15:03  Epoch   18 | loss 0.2566 | lr 0.000100
+2026-03-17 00:21:07  Epoch   19 | loss 0.2568 | lr 0.000100
+2026-03-17 00:27:51  Epoch   20 | loss 0.2562 | PSNR 19.68 dB | SSIM 0.5755 | lr 0.000050
+2026-03-17 00:27:51    -> NEW BEST (19.68 dB) -> checkpoints/phase2\rcan_best_psnr19.68.pth
+2026-03-17 00:33:39  Epoch   21 | loss 0.2558 | lr 0.000050
+2026-03-17 00:39:46  Epoch   22 | loss 0.2560 | lr 0.000050
+2026-03-17 00:45:57  Epoch   23 | loss 0.2560 | lr 0.000050
+2026-03-17 00:52:15  Epoch   24 | loss 0.2558 | lr 0.000050
+2026-03-17 00:59:32  Epoch   25 | loss 0.2554 | PSNR 19.73 dB | SSIM 0.5752 | lr 0.000050
+2026-03-17 00:59:32    -> NEW BEST (19.73 dB) -> checkpoints/phase2\rcan_best_psnr19.73.pth
+2026-03-17 01:05:51  Epoch   26 | loss 0.2558 | lr 0.000050
+2026-03-17 01:12:08  Epoch   27 | loss 0.2551 | lr 0.000050
+2026-03-17 01:18:25  Epoch   28 | loss 0.2555 | lr 0.000050
+2026-03-17 01:24:25  Epoch   29 | loss 0.2557 | lr 0.000050
+2026-03-17 01:31:40  Epoch   30 | loss 0.2562 | PSNR 19.71 dB | SSIM 0.5771 | lr 0.000050
+2026-03-17 01:31:40    -> No improvement (1/10 patience)
+2026-03-17 01:31:40  ============================================================
+2026-03-17 01:31:40  Training complete. Best val PSNR: 19.73 dB
+2026-03-17 01:31:40  ============================================================
+2026-03-17 14:37:26  ============================================================
+2026-03-17 14:37:26  Run started: 2026-03-17 14:37:26
+2026-03-17 14:37:26  Device: cuda (NVIDIA GeForce RTX 5060 Laptop GPU)
+2026-03-17 14:37:26  Model: rcan  |  Phase: 2  |  Epochs: 60  |  Batch: 16  |  StepLR step_size: 15
+2026-03-17 14:37:27  Resumed from checkpoints/phase2/rcan_best_psnr19.73.pth  (epoch 25, best_psnr=19.73 dB) -> starting at epoch 26
+2026-03-17 14:37:27    No scheduler_state in checkpoint. Manually set lr=0.000050 (next decay at epoch 40).
+2026-03-17 14:37:27  Parameters: 4,535,433
+2026-03-17 14:37:27  Train patches: 15000  |  Train batches: 937  |  Val batches: 303
+2026-03-17 14:37:27  Early stopping patience: 10 val checks (50 epochs)  [0=disabled]
+2026-03-17 14:37:27  Log: logs/phase2_rcan.log
+2026-03-17 14:37:27  ============================================================
+2026-03-17 14:43:27  Epoch   26 | loss 0.2561 | lr 0.000050
+2026-03-17 14:49:30  Epoch   27 | loss 0.2557 | lr 0.000050
+2026-03-17 14:55:36  Epoch   28 | loss 0.2557 | lr 0.000050
+2026-03-17 15:01:41  Epoch   29 | loss 0.2554 | lr 0.000050
+2026-03-17 15:08:48  Epoch   30 | loss 0.2557 | PSNR 19.71 dB | SSIM 0.5768 | lr 0.000025
+2026-03-17 15:08:48    -> No improvement (1/10 patience)
+2026-03-17 15:14:55  Epoch   31 | loss 0.2560 | lr 0.000025
+2026-03-17 15:21:05  Epoch   32 | loss 0.2559 | lr 0.000025
+2026-03-17 15:27:23  Epoch   33 | loss 0.2552 | lr 0.000025
+2026-03-17 15:33:41  Epoch   34 | loss 0.2555 | lr 0.000025
+2026-03-17 15:40:59  Epoch   35 | loss 0.2555 | PSNR 19.68 dB | SSIM 0.5779 | lr 0.000025
+2026-03-17 15:40:59    -> No improvement (2/10 patience)
+2026-03-17 15:47:17  Epoch   36 | loss 0.2546 | lr 0.000025
+2026-03-17 15:53:37  Epoch   37 | loss 0.2557 | lr 0.000025
+2026-03-17 15:59:56  Epoch   38 | loss 0.2548 | lr 0.000025
+2026-03-17 16:06:09  Epoch   39 | loss 0.2554 | lr 0.000025
+2026-03-17 16:13:28  Epoch   40 | loss 0.2555 | PSNR 19.73 dB | SSIM 0.5769 | lr 0.000025
+2026-03-17 16:13:29    -> NEW BEST (19.73 dB) -> checkpoints/phase2\rcan_best_psnr19.73.pth
+2026-03-17 16:19:45  Epoch   41 | loss 0.2551 | lr 0.000025
